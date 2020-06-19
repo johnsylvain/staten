@@ -12,7 +12,8 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "format": "pretty-quick"
+    "format": "pretty-quick",
+    "prepublish": "npm run build"
   },
   "peerDependencies": {},
   "husky": {
